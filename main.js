@@ -1,7 +1,6 @@
 const binary = document.querySelector("input");
 const btn = document.querySelector("button");
 
-
 binary.addEventListener("keyup",(event)=>{
     const myLen = binary.value;
 let myArry = [];
@@ -37,3 +36,4 @@ myRst.textContent = `Value of ${myLen} in Decimal: ${count}`;
 console.log("result : " + count);
 
 })  
+//first github repository s
